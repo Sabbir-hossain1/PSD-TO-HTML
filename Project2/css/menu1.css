@@ -1,0 +1,31 @@
+ul{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+ul li {
+	float: left;
+	height: 40px;
+	width: 100px;
+	background-color: black;
+	opacity: .8;
+	line-height: 40px;
+	text-align: center;
+	font-size: 18px;
+	border-right: 2px solid #272727;
+}
+ul li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+ul li a:hover{
+    background-color: green;
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
